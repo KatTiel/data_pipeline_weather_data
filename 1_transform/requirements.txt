@@ -1,0 +1,8 @@
+boto==2.49.0
+boto3==1.34.10
+botocore==1.34.10
+matplotlib==3.7.2
+matplotlib-inline==0.1.6
+numpy==1.26.2
+pandas==2.1.4
+seaborn==0.12.2

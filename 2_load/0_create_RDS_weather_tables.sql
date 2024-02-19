@@ -1,5 +1,5 @@
-/* Create a table for the current weather. This data is automatically transfered 
-into the combined_filtered_weather_history_2024 table
+/* Create a table for the current weather. This data will be automatically transfered 
+to the combined_filtered_weather_history_2024 table by aws_lambda_insert_into_RDB function.
 */
 CREATE TABLE IF NOT EXISTS current_weather (
     city_name VARCHAR(255) PRIMARY key,
@@ -10,8 +10,8 @@ CREATE TABLE IF NOT EXISTS current_weather (
    );
 
 /* 
- Create a table for the current year to continuously receive data from the current_weather table.
- The collected data serves for mean annual temp/rainfall analysis at the end of the year
+ Create a table for the current year to continuously collect data from the current_weather table.
+ The collected data serves for mean annual temp/rainfall analysis at the end of the year.
  */
 
 CREATE TABLE IF NOT EXISTS combined_filtered_weather_history_2024 (
@@ -37,6 +37,6 @@ CREATE TABLE IF NOT EXISTS CITY_filtered_weather_history (
    );
 
 /* 
-After creating the last table, import csv filtered_weather_history via DBeaver or other database management programs
+After creating the last table, import csv filtered_weather_history via DBeaver or similar database administration tool.
 */
  
