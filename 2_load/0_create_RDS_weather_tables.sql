@@ -24,7 +24,8 @@ CREATE TABLE IF NOT EXISTS combined_filtered_weather_history_2024 (
    );
 
 /*
- Insert city name for CITY
+ Create a filtered weather history table for each city.
+ Insert city name for CITY here.
  */
 
 CREATE TABLE IF NOT EXISTS CITY_filtered_weather_history (
