@@ -44,7 +44,7 @@ AWS Lambda functions need to be initialized with a specific Python runtime. If a
 **AWS Lambda :exclamation:Python 3.10:exclamation:**
 - Create an AWS Lambda function in Python 3.10 runtime
 - Add Pandas 3.10 layer
-- Upload the [function and its dependencies](https://github.com/KatTiel/data_pipeline_weather_data/tree/main/0_extract/aws_lambda_current_weather_API_Python3.10) as a .zip file, as described in the [video](https://www.youtube.com/watch?v=Jtlxf_kn5zY&ab_channel=DevAndBeyond)
+- Upload the [function and its dependencies](https://github.com/KatTiel/data_pipeline_weather_data/tree/main/0_extract) as a .zip file, as described in the [video](https://www.youtube.com/watch?v=Jtlxf_kn5zY&ab_channel=DevAndBeyond)
 - Create an [AWS CloudWatch Event](https://www.youtube.com/watch?v=-WyNf_8Ke4E&ab_channel=BeABetterDev) to activate the function at hourly intervals
 
 ##### Load
@@ -52,7 +52,7 @@ AWS Lambda functions need to be initialized with a specific Python runtime. If a
 - Create an AWS Lambda function in Python 3.8 runtime
 - Add Pandas 3.8 layer
 - Download the required dependencies [as described here](https://www.youtube.com/watch?v=80h9lXE07z0&ab_channel=ZyroTech), using AWS Cloud9
-- Upload the [function and its dependencies](https://github.com/KatTiel/data_pipeline_weather_data/tree/main/2_load/1_aws_lambda_insert_into_RDB_Python3.8) as a .zip file, as described in the [video](https://www.youtube.com/watch?v=80h9lXE07z0&ab_channel=ZyroTech)
+- Upload the [function and its dependencies](https://github.com/KatTiel/data_pipeline_weather_data/tree/main/2_load/aws_lambda_insert_into_RDB_Python3.8) as a .zip file, as described in the [video](https://www.youtube.com/watch?v=80h9lXE07z0&ab_channel=ZyroTech)
 - [Add an event trigger](https://www.youtube.com/watch?v=OJrxbr9ebDE) to invoke the function whenever a .csv file is uploaded into the S3 bucket  
 
 ### License
