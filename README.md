@@ -6,9 +6,9 @@ It is split into two parts - historical and current weather data collection and 
 ### Prerequisites 
 - [OpenWeather Free API Key](https://openweathermap.org/appid) 1000 API calls per day for ***free***.
 - [Amazon Web Service Account](https://aws.amazon.com/de/) There is a ***free tier*** option but definitely check out the AWS cost explorer as some ***additional costs might arise***.
--- [AWS RDS PostgreSQL Database](https://www.youtube.com/watch?v=Ng_zi11N4_c) You can follow the steps in the video and choose PostgreSQL instead of MySQL for this project
--- [AWS S3](https://www.youtube.com/watch?v=e6w9LwZJFIA)
--- [AWS Lambda](https://www.youtube.com/watch?v=eOBq__h4OJ4)
+    - [AWS RDS PostgreSQL Database](https://www.youtube.com/watch?v=Ng_zi11N4_c) You can follow the steps in the video and choose PostgreSQL instead of MySQL for this project
+    - [AWS S3](https://www.youtube.com/watch?v=e6w9LwZJFIA)
+    - [AWS Lambda](https://www.youtube.com/watch?v=eOBq__h4OJ4)
 - A database administration tool, for example [DBeaver 23.3.5](https://dbeaver.io) which has to be [connected to your AWS RDS Database](https://www.youtube.com/watch?v=_Yzr7yBGWQI&ab_channel=AWSMadeEasy)
 - [Python 3.11](https://www.python.org/downloads/release/python-3110/)
 - Jupyter Notebook ```pip install notebook ```
