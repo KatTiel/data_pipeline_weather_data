@@ -1,4 +1,4 @@
-# ETL Data Pipeline For Current and Historical Weather Data :sunrise_over_mountains:
+## ETL Data Pipeline For Current and Historical Weather Data :sunrise_over_mountains:
 This project aims at analyzing yearly temperature and rainfall changes since 1979.
 I decided to take a look on five beautiful places in the world - **Berlin, Ko Tao, Parque Nacional Corcovado, San Diego and Tulum**.
 It is split into two parts - historical and current weather data collection and analysis.
@@ -42,8 +42,8 @@ AWS Lambda functions need to be initialized with a specific Python runtime. If a
 :exclamation:I highly recommend the approach of downloading dependencies for the second AWS Lambda load function in Python 3.8 runtime [as shown in the video](https://www.youtube.com/watch?v=80h9lXE07z0&ab_channel=ZyroTech) as it resolves several compatibility issues encountered with alternative methods. :exclamation:
 
 #### Extract & Transform
-- Create an AWS S3 bucket for current weather data
 **AWS Lambda :exclamation:Python 3.10:exclamation:**
+- Create an AWS S3 bucket for current weather data
 - Create an AWS Lambda function in Python 3.10 runtime
 - Add Pandas 3.10 layer
 - Upload the [function and its dependencies](https://github.com/KatTiel/data_pipeline_weather_data/tree/main/0_extract) as a .zip file, as described in the [video](https://www.youtube.com/watch?v=Jtlxf_kn5zY&ab_channel=DevAndBeyond)
