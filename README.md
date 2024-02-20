@@ -23,7 +23,7 @@ Both *historical* and *current* weather data collection and analysis.
 ## How It Works 
 ### Historical Weather Data
 #### Extract
-- [Download historical weather data](https://home.openweathermap.org/history_bulks/new) of your cities of interest as .json - ***9€/location***
+- [Download historical weather data](https://home.openweathermap.org/history_bulks/new) of your cities of interest as a JSON file - ***costs 9€ for each location***
 - Save the data as "weather_history_bulk.json"
 
 #### Transform
@@ -42,7 +42,7 @@ The initial function is scheduled to execute every hour automatically, while the
 
 AWS Lambda functions need to be initialized with a specific Python runtime. If additional dependencies are required, such as psycopg2 for database connections, [they must to be uploaded as a .zip file, along with the lambda_function](https://www.youtube.com/watch?v=Jtlxf_kn5zY&ab_channel=DevAndBeyond). Pandas should be integrated as an AWS Lambda function layer  rather than being part of the uploaded dependencies.
 
-:exclamation:I highly recommend the approach of downloading dependencies for the second AWS Lambda function in Python 3.8 runtime [as shown in the video](https://www.youtube.com/watch?v=80h9lXE07z0&ab_channel=ZyroTech) as it resolves several compatibility issues encountered with alternative methods:exclamation:
+:exclamation: I highly recommend the approach of downloading dependencies for the second AWS Lambda function in Python 3.8 runtime [as shown in the video](https://www.youtube.com/watch?v=80h9lXE07z0&ab_channel=ZyroTech) as it resolves several compatibility issues encountered with alternative methods :exclamation:
 
 #### Extract & Transform
 **AWS Lambda :exclamation:Python 3.10:exclamation:**
