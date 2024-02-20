@@ -1,8 +1,7 @@
 ## ETL Data Pipeline For Current and Historical Weather Data :sunrise_over_mountains:
-This project aims at analyzing yearly temperature and rainfall changes since 1979.
-I decided to take a look on five beautiful places in the world - **Berlin, Ko Tao, Parque Nacional Corcovado, San Diego and Tulum**.
-It is split into two parts - historical and current weather data collection and analysis.
-
+This project aims at exploring the shifts in yearly temperature and rainfall patterns dating back to 1979.
+I've chosen to focus on five beautiful destinations worldwide: ***Berlin, Ko Tao, Parque Nacional Corcovado, San Diego, and Tulum***. I decided to take a look on five beautiful places in the world - **Berlin, Ko Tao, Parque Nacional Corcovado, San Diego and Tulum**.
+The project is divided into two main parts: 1. historical and 2. current weather data collection and analysis.
 
 ## Prerequisites 
 - [OpenWeather Free API Key](https://openweathermap.org/appid) 1000 API calls per day for ***free***.
