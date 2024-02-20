@@ -40,9 +40,9 @@ Both *historical* and *current* weather data collection and analysis.
 This part of the project is accomplished by using two different AWS Lambda functions. 
 The initial function is scheduled to execute every hour automatically, while the second function triggers upon the upload of a .csv file into the designated S3 bucket. This upload marks the concluding step of the first function's execution.
 
-AWS Lambda functions need to be initialized with a specific Python runtime. If additional dependenciesare required, such as psycopg2 for database connections, [they must to be uploaded, along with the lambda_function](https://www.youtube.com/watch?v=Jtlxf_kn5zY&ab_channel=DevAndBeyond). Pandas should be integrated as an AWS Lambda function layer  rather than being part of the uploaded dependencies.
+AWS Lambda functions need to be initialized with a specific Python runtime. If additional dependencies are required, such as psycopg2 for database connections, [they must to be uploaded as a .zip file, along with the lambda_function](https://www.youtube.com/watch?v=Jtlxf_kn5zY&ab_channel=DevAndBeyond). Pandas should be integrated as an AWS Lambda function layer  rather than being part of the uploaded dependencies.
 
-:exclamation:I highly recommend the approach of downloading dependencies for the second AWS Lambda load function in Python 3.8 runtime [as shown in the video](https://www.youtube.com/watch?v=80h9lXE07z0&ab_channel=ZyroTech) as it resolves several compatibility issues encountered with alternative methods. :exclamation:
+:exclamation:I highly recommend the approach of downloading dependencies for the second AWS Lambda function in Python 3.8 runtime [as shown in the video](https://www.youtube.com/watch?v=80h9lXE07z0&ab_channel=ZyroTech) as it resolves several compatibility issues encountered with alternative methods:exclamation:
 
 #### Extract & Transform
 **AWS Lambda :exclamation:Python 3.10:exclamation:**
